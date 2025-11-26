@@ -3,21 +3,21 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 export default function Education() {
   const educationData = [
     {
-      degree: 'MCA (Integrated) - Master of Computer Applications',
+      degree: 'MCA 5 years - Master of Computer Applications',
       institution: 'DAVV - International Institute of Professional Studies',
       location: 'Indore, Madhya Pradesh',
-      duration: '2022 - 2027',
+      duration: '2023 - 2028',
       year: 'Currently in 3rd Year',
       description: 'Five-year integrated program focusing on advanced computer science, software engineering, and modern application development.',
-      highlights: ['Data Structures & Algorithms', 'Web Development', 'Database Management', 'Software Engineering']
+      highlights: ['Data Science','Data Structures & Algorithms', 'Web Development', 'Database Management', 'Software Engineering']
     },
     {
-      degree: 'Higher Secondary Education',
-      institution: 'Previous Institution',
-      location: 'Location',
-      duration: 'Year - Year',
+      degree: 'Higher Secondary Education - PCM',
+      institution: 'Rajeshwar Hr Sec School',
+      location: 'Mhow, Indore, Madhaya Pradesh',
+      duration: '2022 - 2023',
       year: 'Completed',
-      description: 'Completed with focus on Science and Mathematics, building a strong foundation for computer science.',
+      description: 'Completed with focus on Physics, Chemistry and Mathematics.',
       highlights: ['Mathematics', 'Physics', 'Computer Science']
     }
   ];

@@ -18,11 +18,11 @@ export default function About() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse-slow"></div>
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white/20 bg-slate-700 flex items-center justify-center">
-                <div className="text-center">
-                  <User size={80} className="text-cyan-400 mx-auto mb-2" />
-                  <p className="text-white text-sm">Place your</p>
-                  <p className="text-white text-sm">passport photo here</p>
-                </div>
+                <img
+                  src="./src/images/image.jpg"
+                  alt="Profile placeholder"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ export default function About() {
                   <h3 className="text-xl font-semibold text-white mb-2">What I Do</h3>
                   <p className="text-gray-300 leading-relaxed">
                     I'm focused on learning and building full-stack applications, exploring new technologies,
-                    and developing skills in modern web development, algorithms, and software engineering.
+                    and developing skills in modern web development, algorithms, and Data Science.
                   </p>
                 </div>
               </div>

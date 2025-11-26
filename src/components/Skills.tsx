@@ -6,7 +6,7 @@ export default function Skills() {
       title: 'Programming',
       icon: Code2,
       color: 'from-cyan-500 to-blue-600',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++']
+      skills: ['JavaScript', 'C', 'Python', 'Java', 'C++']
     },
     {
       title: 'Web Development',
@@ -26,17 +26,17 @@ export default function Skills() {
       color: 'from-pink-500 to-red-600',
       skills: ['Git', 'GitHub', 'VS Code', 'Linux', 'Docker']
     },
-    {
-      title: 'Design & UI',
-      icon: Palette,
-      color: 'from-orange-500 to-yellow-600',
-      skills: ['Figma', 'Responsive Design', 'UI/UX Principles', 'Animation']
-    },
+    // {
+    //   title: 'Design & UI',
+    //   icon: Palette,
+    //   color: 'from-orange-500 to-yellow-600',
+    //   skills: ['Figma', 'Responsive Design', 'UI/UX Principles', 'Animation']
+    // },
     {
       title: 'Interests',
       icon: Rocket,
       color: 'from-green-500 to-teal-600',
-      skills: ['AI/ML', 'Cloud Computing', 'Web3', 'Open Source', 'DSA']
+      skills: ['AI/ML', 'Data Science', 'Web3', 'Open Source', 'DSA']
     }
   ];
 

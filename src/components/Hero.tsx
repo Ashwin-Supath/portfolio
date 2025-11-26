@@ -1,4 +1,4 @@
-import { Download, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -26,17 +26,13 @@ export default function Hero() {
             </div>
 
             <p className="text-xl md:text-2xl text-gray-300">
-              MCA (Integrated), DAVV IIPS
+              MCA 5 years Course, DAVV IIPS
             </p>
             <p className="text-lg text-gray-400">
               Tech Learner & Future Developer
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="group px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-medium hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 flex items-center gap-2 hover:scale-105">
-                <Download size={20} />
-                Download Resume
-              </button>
               <button
                 onClick={scrollToContact}
                 className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-medium hover:bg-white/20 transition-all duration-300 flex items-center gap-2 border border-white/20 hover:scale-105"
@@ -44,6 +40,15 @@ export default function Hero() {
                 <Mail size={20} />
                 Contact Me
               </button>
+
+              <a
+                href="https://youtube.com/playlist?list=PLT2mVih5EJzEYnZNPDWDmVDM-j2XmQ_j4&si=MBbEjSELQJD6j_Mz"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white rounded-full font-medium hover:bg-white/20 transition-all duration-300 flex items-center gap-2 border border-white/20 hover:scale-105"
+              >
+                YouTube Playlist
+              </a>
             </div>
           </div>
 

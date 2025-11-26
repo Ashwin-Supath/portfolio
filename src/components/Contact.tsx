@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Youtube, Send } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -45,7 +45,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-medium">ashwin.supath@example.com</p>
+                    <p className="text-white font-medium">supathashwin@gmail.com</p>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Phone</p>
-                    <p className="text-white font-medium">+91 XXXXX XXXXX</p>
+                    <p className="text-white font-medium">+91 7725830889</p>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Contact() {
                 <h4 className="text-white font-semibold mb-4">Follow Me</h4>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Ashwin-Supath"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-white/10 rounded-lg hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 transform hover:scale-110"
@@ -82,7 +82,7 @@ export default function Contact() {
                     <Github size={24} className="text-white" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="www.linkedin.com/in/ashwin-supath"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-white/10 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 transition-all duration-300 transform hover:scale-110"
@@ -90,12 +90,12 @@ export default function Contact() {
                     <Linkedin size={24} className="text-white" />
                   </a>
                   <a
-                    href="https://twitter.com"
+                    href="https://www.youtube.com/@ashwinsupath2005"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-white/10 rounded-lg hover:bg-gradient-to-r hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 transform hover:scale-110"
                   >
-                    <Twitter size={24} className="text-white" />
+                    <Youtube size={24} className="text-white" />
                   </a>
                 </div>
               </div>
