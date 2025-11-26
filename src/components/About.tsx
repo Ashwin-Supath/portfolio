@@ -19,7 +19,7 @@ export default function About() {
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse-slow"></div>
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white/20 bg-slate-700 flex items-center justify-center">
                 <img
-                  src="./src/images/image.jpg"
+                  src="./public/image.jpg"
                   alt="Profile placeholder"
                   className="w-full h-full object-cover"
                 />
