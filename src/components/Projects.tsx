@@ -3,35 +3,35 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'Project Alpha',
-      description: 'A full-stack web application built with React and Node.js featuring real-time data synchronization and modern UI.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+      title: 'Data Science Project',
+      description: 'All Data Science internals (1,2) and assignment (2025) explained via video through videos',
+      tags: ['Internal-1', 'Internal-2', 'Assignment'],
       gradient: 'from-cyan-500 to-blue-600'
     },
-    {
-      title: 'Project Beta',
-      description: 'Mobile-responsive e-commerce platform with secure payment integration and advanced product filtering.',
-      tags: ['Next.js', 'TypeScript', 'Tailwind', 'Stripe'],
-      gradient: 'from-blue-500 to-purple-600'
-    },
-    {
-      title: 'Project Gamma',
-      description: 'AI-powered task management system with smart scheduling and productivity analytics dashboard.',
-      tags: ['Python', 'Machine Learning', 'React', 'PostgreSQL'],
-      gradient: 'from-purple-500 to-pink-600'
-    },
-    {
-      title: 'Project Delta',
-      description: 'Real-time collaboration tool for teams with document sharing, video calls, and project tracking.',
-      tags: ['React', 'WebRTC', 'Firebase', 'Material-UI'],
-      gradient: 'from-pink-500 to-red-600'
-    },
-    {
-      title: 'Project Epsilon',
-      description: 'Social media analytics platform providing insights, sentiment analysis, and engagement metrics.',
-      tags: ['Vue.js', 'Django', 'D3.js', 'Redis'],
-      gradient: 'from-orange-500 to-yellow-600'
-    }
+    // {
+    //   title: 'Project Beta',
+    //   description: 'Mobile-responsive e-commerce platform with secure payment integration and advanced product filtering.',
+    //   tags: ['Next.js', 'TypeScript', 'Tailwind', 'Stripe'],
+    //   gradient: 'from-blue-500 to-purple-600'
+    // },
+    // {
+    //   title: 'Project Gamma',
+    //   description: 'AI-powered task management system with smart scheduling and productivity analytics dashboard.',
+    //   tags: ['Python', 'Machine Learning', 'React', 'PostgreSQL'],
+    //   gradient: 'from-purple-500 to-pink-600'
+    // },
+    // {
+    //   title: 'Project Delta',
+    //   description: 'Real-time collaboration tool for teams with document sharing, video calls, and project tracking.',
+    //   tags: ['React', 'WebRTC', 'Firebase', 'Material-UI'],
+    //   gradient: 'from-pink-500 to-red-600'
+    // },
+    // {
+    //   title: 'Project Epsilon',
+    //   description: 'Social media analytics platform providing insights, sentiment analysis, and engagement metrics.',
+    //   tags: ['Vue.js', 'Django', 'D3.js', 'Redis'],
+    //   gradient: 'from-orange-500 to-yellow-600'
+    // }
   ];
 
   return (
@@ -81,14 +81,24 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-4 pt-4 border-t border-white/10">
-                  <button className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-300">
+                  <a
+                    href="https://github.com/Ashwin-Supath/portfolio.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-300"
+                  >
                     <Github size={20} />
                     <span className="text-sm">Code</span>
-                  </button>
-                  <button className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                  </a>
+                  <a
+                    href="https://youtube.com/playlist?list=PLT2mVih5EJzEYnZNPDWDmVDM-j2XmQ_j4&si=CHbmkkmxlvcl3avq"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                  >
                     <ExternalLink size={20} />
-                    <span className="text-sm">Demo</span>
-                  </button>
+                    <span className="text-sm">Playlist</span>
+                  </a>
                 </div>
               </div>
             </div>
